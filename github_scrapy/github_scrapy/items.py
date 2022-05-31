@@ -6,9 +6,8 @@
 
 from scrapy.item import Item, Field
 
+
 class GithubScrapyItem(Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
     name_repository = Field()
     about = Field()
     url = Field()
@@ -17,6 +16,5 @@ class GithubScrapyItem(Item):
     watching_num = Field()
     commits_num = Field()
     commit_last = Field()
-    releases_num  = Field()
+    releases_num = Field()
     last_release = Field()
-    

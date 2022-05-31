@@ -1,5 +1,6 @@
 import pymongo
 
+
 class GithubScrapyPipeline(object):
 
     def __init__(self):
